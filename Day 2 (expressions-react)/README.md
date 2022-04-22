@@ -6,8 +6,7 @@ eg => 2 + 3, here 2 => operands and "+" => operator
 eg => const name = "Mayur"
 ReactDOM.render(
    <>
-	<p>My name is {name}</p>
-   </>
+	<p>My name is {name}</p>  </>
 )
 
 3) In "{}" we can only use expressions, we can't use statements (if, else, etc.)
