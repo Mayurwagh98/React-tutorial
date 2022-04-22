@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+1) Expressions = operands + operators
+eg => 2 + 3, here 2 => operands and "+" => operator
+
+2) How to write expressions in jsx?
+ => using "{}"
+eg => const name = "Mayur"
+ReactDOM.render(
+   <>
+	<h1>My name is {name}</h1>
+   </>
+)
+
+3) In "{}" we can only use expressions, we can't use statements (if, else, etc.)
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +84,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
