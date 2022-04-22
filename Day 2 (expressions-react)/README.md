@@ -6,7 +6,7 @@ eg => 2 + 3, here 2 => operands and "+" => operator
 eg => const name = "Mayur"
 ReactDOM.render(
    <>
-	<h1>My name is {name}</h1>
+	<p>My name is {name}</p>
    </>
 )
 
