@@ -4,5 +4,3 @@ We can’t use the attributes with the same name in both React and HTML because 
 
 1. className: In HTML, it’s common to use the class as an attribute name as shown below:
 
-<h1 class="gfg">Welcome to GeeksforGeeks</h1>
-But in JSX, we can’t use the word class. We have to use className instead which is applied to all regular DOM elements like <div>, <a>, and others. This is because JSX gets translated into JavaScript, and class is a reserved word in JavaScript.
