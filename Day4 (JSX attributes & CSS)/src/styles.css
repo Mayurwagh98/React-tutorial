@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  text-shadow: black;
+}
+
+.img_div {
+  display: flex;
+  justify-content: center;
+}
+
+.img_div img {
+  width: 100px;
+  height: 200px;
+  margin: 10px;
+}
