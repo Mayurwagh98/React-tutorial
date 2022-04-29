@@ -1,4 +1,4 @@
-Inline CSS
+## Inline Style CSS
 
 let heading = {
     textAlign: "center",
