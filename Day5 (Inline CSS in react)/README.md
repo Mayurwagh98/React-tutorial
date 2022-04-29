@@ -7,6 +7,6 @@ let heading = {
     textShadow: "black",
 }
 
-"<h1 style = {heading} contentEditable="true">
+<tag style = {heading} contentEditable="true">
         Hello, This is {name}'s Image Gallery
-</h1>"
+</tag>
