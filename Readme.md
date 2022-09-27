@@ -17,7 +17,9 @@ ReactDOM.render(h1 tag "Hello World!" " h1 tag, document.getElementByID("root"))
 1. Well that compliation process is done by `Babel`
 2. And the above sytanx is ES6 syntax which babel converts into ES5 so that browser will get it.
 3. But how does it looks at the backend once babel converts it? See the below code
-`ReactDOM.render(React.createElement("h1", null, "Hello World!"), document.getElementById("root"))`
+```
+ReactDOM.render(React.createElement("h1", null, "Hello World!"), document.getElementById("root"))
+```
 4. This is how react does the thing in just 1 line, but if the same thing I want to display using simple JS then will I do it? `See the below code`
 
 ```
