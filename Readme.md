@@ -2,11 +2,11 @@
 
 ## What is the meaning of the code written below? =>
  
-`import React from "react"
+``` import React from "react"
 
 import ReactDOM from "react-dom"
 
-ReactDOM.render(h1 tag "Hello World!" " h1 tag, document.getElementByID("root"))`
+ReactDOM.render(h1 tag "Hello World!" " h1 tag, document.getElementByID("root")) ```
 
 1. In the 1st line we are importing React from "react" libariry, in the 2nd line I am importing ReactDOM from "react-dom" libarry and the 3rd line I am just appending "Hello World!" on the DOM, but the `ReactDOM.render` methond takes two argument which are "what to show" and "where to show". So in this case my `what to show` is Hello World and `where to show is div (root)`.
 
