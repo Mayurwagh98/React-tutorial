@@ -45,13 +45,39 @@ ReactDOM.render(
 document.getElementById("root")
 ) 
 ```
-3. If you are using react version above 16.x.x, then you can use array as well to give multiple elements
+3. If you are using react version above v16.x.x, then you can use array as well to give multiple elements, but as you are passing the elements using an array then you will have to seprate the elements using `,`
 ```
 ReactDOM.render(
 [ 
- `h1` Hellow World `h1`
-  `p` This is React notes `p`
-  `h2` You can also learn react now `h2`
+ `h1` Hellow World `h1`,
+  `p` This is React notes `p`,
+  `h2` You can also learn react now `h2`,
 ],
 document.getElementById("root")
 ) 
+```
+## React Fragment
+
+1. In the above code I was passing multiple elements inside `div` or and `array`, but the problem with this is that while applying `CSS` on div or array it will be difficult and time consuming, but if want to write multiple elements without using `div` or `array` then the `React.Fragment` comes into picture.
+2. How to pass multiple elements using react fragment? See below
+```
+ReactDOM.render(
+<React.Fragment>
+ `h1` Hellow World `h1`,
+  `p` This is React notes `p`,
+  `h2` You can also learn react now `h2`,
+</React.Fragment>,
+document.getElementById("root")
+) 
+```
+3. But writting `React.Fragment` everytime is also time consuming and sometimes I may spell it wrong, so to make it simpler even if I don't write `React.Fragment` and pass multiple elements, still it works, the only thing is you will have to wrap the elements inside this `<>` `</>`
+```
+ReactDOM.render(
+<>
+ `h1` Hellow World `h1`,
+  `p` This is React notes `p`,
+  `h2` You can also learn react now `h2`,
+</>,
+document.getElementById("root")
+) 
+```
