@@ -29,3 +29,18 @@ h1.innerHTMML = "Hello World!";
 
 document.getElementById("root").appendChild(h1)
  ```
+## How to render multiple elements inside ReactDOM.render() ?
+1. By default `ReactDOM.render()` method takes only 1 element inside it, like shown below
+```
+ReactDOM.render(h1 tag "Hello World!" " h1 tag, document.getElementByID("root")) 
+```
+2. But what if I want to givr more than 1 element?, then what I can do is I can wrap them inside an 1 element, as shown below
+```
+ReactDOM.render(
+`div` 
+ `h1` Hellow World `h1`
+  `p` This is React notes `p`
+  `h2` You can also learn react now `h2`
+`div`,
+document.getElementById("root")
+) 
