@@ -44,3 +44,14 @@ ReactDOM.render(
 `div`,
 document.getElementById("root")
 ) 
+```
+3. If you are using react version above 16.x.x, then you can use array as well to give multiple elements
+```
+ReactDOM.render(
+[ 
+ `h1` Hellow World `h1`
+  `p` This is React notes `p`
+  `h2` You can also learn react now `h2`
+],
+document.getElementById("root")
+) 
