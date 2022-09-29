@@ -83,6 +83,8 @@ document.getElementById("root")
 ```
 ## Expressions in React
 Expressions - are combination of operators and operands
+1. In react whenver we want to write expressions we write them in `{}`
+2. In `{}` we can only write expressions not statements (if, else, etc .) 
 ```
 const firstname = "Mayur"
 
