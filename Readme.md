@@ -81,3 +81,17 @@ ReactDOM.render(
 document.getElementById("root")
 ) 
 ```
+## Expressions in React
+Expressions - are combination of operators and operands
+```
+const firstname = "Mayur"
+
+ReactDOM.render(
+ <>
+   <h1 tag> My name is {firstname} </h1 tag>
+   
+   <p tag> my lucky number us {2 + 3} </p tag>
+ </>,
+ document.getElementById("root")
+)
+```
