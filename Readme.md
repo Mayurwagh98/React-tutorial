@@ -97,3 +97,6 @@ ReactDOM.render(
  document.getElementById("root")
 )
 ```
+## What is difference between `Internal` and `Inline` CSS?
+1. If you are writting the CSS in the same file `JS` or `HTML` then its known as internal CSS
+2. If you are writting CSS in `tag` then its known as inline CSS
