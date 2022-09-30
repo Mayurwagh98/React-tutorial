@@ -2,8 +2,8 @@
 
 This app will display `Good Morning` `Good Afternoon` `Good Night` according to the time, and the final outcome of the app look like below
 
-![Screenshot (865)](https://user-images.githubusercontent.com/69896733/193273685-391e1ef4-90b8-4cc1-9803-f57a68921134.png)
+![Screenshot (866)](https://user-images.githubusercontent.com/69896733/193274293-3f67dd29-ffff-455e-86e6-6c22da26cae2.png)
 
-![Screenshot (866)](https://user-images.githubusercontent.com/69896733/193273702-8be014bb-80db-433d-a396-9e55e44a16c4.png)
+![Screenshot (867)](https://user-images.githubusercontent.com/69896733/193274311-c8eb908e-b081-4094-a516-86a4cdf02955.png)
 
-![Screenshot (867)](https://user-images.githubusercontent.com/69896733/193273709-1551bd79-59e1-4bf4-b4e9-8eaf29fcb517.png)
+![Screenshot (865)](https://user-images.githubusercontent.com/69896733/193274325-589affdb-8e50-459c-a81b-2aefaea8a8b9.png)
