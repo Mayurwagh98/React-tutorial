@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: lightblue;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  background: lightgray;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  background: transparent;
+  text-shadow: 0 2px 2px black;
+}
+
+button {
+  padding: 12px 20px;
+  background: violet;
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
