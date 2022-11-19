@@ -1,0 +1,16 @@
+.thead-dark{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.table-body{
+  text-align: center;
+  
+}
+
+.table-responsive{
+  width: 1000px;
+  margin: auto;
+  height: 450px;
+}
