@@ -116,7 +116,7 @@ The logic inside the callback will be triggered only for the first time, the com
 
 `useEffect(() => {logic}, [value])`
 
-This callback will get triggered, for the first time when the component mounts, and then everytime when the value inside the array of dependency changes.
+This callback will get triggered, for the first time when the component mounts, and then everytime when the value inside the array of dependency changes `(array dependency is nothing but the array which we passed in the above useEffect ([value]))`.
 
 `Side-Effect` - things which we can't control or which are un-predictable
 
