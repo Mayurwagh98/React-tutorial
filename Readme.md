@@ -119,3 +119,6 @@ The logic inside the callback will be triggered only for the first time, the com
 This callback will get triggered, for the first time when the component mounts, and then everytime when the value inside the array of dependency changes.
 
 `Side-Effect` - things which we can't control or which are un-predictable
+
+Ex - calling an API - while calling an API you can get responses like 200, 500, 404, etc  and these effects are not in our control.
+Other ex - setTimeout, setInterval, web APIs, document, window...
