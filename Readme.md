@@ -100,3 +100,22 @@ ReactDOM.render(
 ## What is difference between `Internal` and `Inline` CSS?
 1. If you are writting the CSS in the same file `JS` or `HTML` then its known as internal CSS
 2. If you are writting CSS in `tag` then its known as inline CSS
+
+## useEffect
+
+`useEfect(() => { logic})`
+
+The callback will be triggered everytime the component re-renders
+The component will re-render in only 2 scenarios:-
+1. When the state of the component changes.
+2. When the props of the component changes.
+
+`useEffect(() => {logic}, [])`
+
+The logic inside the callback will be triggered only for the first time, the component mounts.
+
+`useEffect(() => {logic}, [value])`
+
+This callback will get triggered, for the first time when the component mounts, and then everytime when the value inside the array of dependency changes.
+
+`Side-Effect` - things which we can't control or which are un-predictable
